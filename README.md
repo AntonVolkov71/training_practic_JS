@@ -1,0 +1,1 @@
+# training_practic_JS
