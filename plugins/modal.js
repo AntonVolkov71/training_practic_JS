@@ -23,6 +23,21 @@ function _createModal(options) {
   return modal
 }
 
+/* TODO
+* title: string
+* closable: boolean для крестика есть нету
+* content: string - для контента
+* width: string(400px) - ширина модального окна
+* destroy(): void убирать из дом дерева и слушатели
+* закрытие на крестик и клик вне окна
+* ---------------
+* публичный метод setContent(html:string):void | PUBLIC - динамически меняется содержимое окна
+* onClose():void
+* onOpen():void
+* beforeClose(): boolean если фолс не закрывается
+* ---------------
+* animate.css библиотекапосмотреть её
+*/
 $.modal = function (options) {
   const ANIMATION_SPEDD = 2200
   const $modal = _createModal(options)
