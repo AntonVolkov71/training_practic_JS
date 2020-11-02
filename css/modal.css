@@ -39,7 +39,7 @@
   left: 0;
   bottom: 0;
   background: rgba(0, 0, 0, 0);
-  transition: background .5s ease-in;
+  transition: background .2s ease-in;
 }
 
 .modal-window {
@@ -48,7 +48,7 @@
   background: #fff;
   margin: 0 auto;
   transform: translateY(-200px);
-  transition: transform .5s ease-in;
+  transition: transform .2s ease-in;
 }
 .modal-header {
   padding: 5px 10px;
