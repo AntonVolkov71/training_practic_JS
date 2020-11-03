@@ -1,7 +1,22 @@
 let fruits = [
-  { id: 1, title: "Яблоки", price: 20, img: "https://images.unsplash.com/photo-1587851932297-b66f1f61f7b6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" },
-  { id: 2, title: "Апельсины", price: 30, img: "https://images.unsplash.com/photo-1586439702132-55ce0da661dd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80" },
-  { id: 3, title: "Манго", price: 40, img: "https://images.unsplash.com/photo-1601493700631-2b16ec4b4716?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80" },
+  {
+    id: 1,
+    title: "Яблоки",
+    price: 20,
+    img: "https://images.unsplash.com/photo-1587851932297-b66f1f61f7b6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+  },
+  {
+    id: 2,
+    title: "Апельсины",
+    price: 30,
+    img: "https://images.unsplash.com/photo-1586439702132-55ce0da661dd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
+  },
+  {
+    id: 3,
+    title: "Манго",
+    price: 40,
+    img: "https://images.unsplash.com/photo-1601493700631-2b16ec4b4716?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80"
+  },
 ]
 
 const toHTML = fruit => `
@@ -33,6 +48,7 @@ function render() {
   const html = fruits.map(toHTML).join('')
   document.querySelector("#fruits").innerHTML = html
 }
+
 render()
 
 const priceModal = $.modal(modalOptions)
@@ -54,13 +70,13 @@ document.addEventListener("click", event => {
       title: "Вы уверены",
       content: `<p>Вы удаляете фрукт:  <strong>${fruit.title}</strong></p>`
     })
-      .then(() => {
-        fruits = fruits.filter(f => f.id !== id)
-        render()
-      })
-      .catch(() => {
-        console.log("catch")
-      })
+        .then(() => {
+          fruits = fruits.filter(f => f.id !== id)
+          render()
+        })
+        .catch(() => {
+          console.log("catch")
+        })
   }
 })
 

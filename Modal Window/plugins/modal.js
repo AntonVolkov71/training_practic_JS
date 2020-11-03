@@ -2,7 +2,8 @@ Element.prototype.appendAfter = function (element) {
   element.parentNode.insertBefore(this, element.nextSibling)
 }
 
-function noop(){}
+function noop() {
+}
 
 function _createModalFooter(buttons = []) {
   if (buttons.length === 0) {
@@ -11,7 +12,7 @@ function _createModalFooter(buttons = []) {
   const wrap = document.createElement("div")
   wrap.classList.add("modal-footer")
 
-  buttons.forEach(btn=>{
+  buttons.forEach(btn => {
     const $btn = document.createElement('button')
     $btn.textContent = btn.text
     $btn.classList.add("btn")
@@ -24,7 +25,7 @@ function _createModalFooter(buttons = []) {
   return wrap
 }
 
-function _createModal({ title, content, closable, width, footerButtons }) {
+function _createModal({title, content, closable, width, footerButtons}) {
   const DEFAULT_WIDTH = "600px"
   const modal = document.createElement("div")
   modal.classList.add("amodal")
@@ -77,7 +78,7 @@ $.modal = function (options) {
         closing = false
         if (typeof options.onClose === 'function') {
           options.onClose()
-        }  
+        }
       }, ANIMATION_SPEDD)
     },
 
