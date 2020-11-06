@@ -16,12 +16,16 @@ body {
 .select {
   width: 100%;
   position: relative;
+  z-index: 100;
 }
 .select.open .select__dropdown {
   display: block;
 }
 .select.open .select__input {
   border-bottom: none;
+}
+.select.open .select__backdrop {
+  display: block;
 }
 .select__input {
   border: 1px solid #ccc;
@@ -41,7 +45,7 @@ body {
   top: 46px;
   left: 0;
   right: 0;
-  max-height: 200px;
+  max-height: 207px;
   overflow-y: auto;
   box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.3);
 }
@@ -50,9 +54,22 @@ body {
   margin: 0;
   list-style: none;
 }
+.select__backdrop {
+  position: fixed;
+  display: none;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: transparent;
+}
 .select__item {
   padding: 1rem;
   border-bottom: 1px solid #ccc;
+}
+.select__item.selected {
+  background-color: bisque;
 }
 .select__item:hover {
   background-color: #eee;
