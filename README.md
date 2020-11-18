@@ -1,6 +1,7 @@
 # training_practic_JS
 
 ## Практика на чистом JavaScript
+* архитектура
 * модальное окно
 * плагин Select
 ___
