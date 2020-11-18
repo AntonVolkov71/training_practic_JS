@@ -1,7 +1,7 @@
 # training_practic_JS
 
 ## Практика на чистом JavaScript
-* архитектура
+* архитектура MVC, MVVM
 * модальное окно
 * плагин Select
 ___
