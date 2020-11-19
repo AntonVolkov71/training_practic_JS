@@ -1,3 +1,4 @@
-function usersController(){
-  
+function usersController() {
+
+  usersView('#users', users)
 }
