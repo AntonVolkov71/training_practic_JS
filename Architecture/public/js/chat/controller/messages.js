@@ -1,14 +1,22 @@
-function messagesController(){
+function messagesController() {
 
-  messagesView(messages, {
+  messagesView('#messages', messages, {
     onDelete: function (message) {
       messages.remove(message)
     }
   })
 
-  messageInputView({
-    onText: function (text) {
+  const form = newMessageFormView('#new-message-form', {
+    onSend: function (text) {
       messages.add({text})
+      form.clear()
+      // return $.ajax('asd').catch(function (error) {
+      //   form.showError(error.message)
+      //   //form.setState('error')
+      //
+      //   // можно вызвать тоастр отдельная вьюха или библиотека
+      //
+      // })
     }
   })
 }

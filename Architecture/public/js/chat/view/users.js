@@ -1,6 +1,10 @@
-function usersView(selector, users){
+function  usersView(selector, users){
+  const list = $(selector)
+  const template = list.find('> li').detach()
 
-  // const list = $(selector) //
-  const list = document.querySelectorAll(selector)
-  console.log("list", list)
+  users.forEach(function (user) {
+    const userElement = template.clone()
+    userElement.find('[data-name]').text(user.name)
+    list.append(userElement)
+  })
 }

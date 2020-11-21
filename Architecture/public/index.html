@@ -4,25 +4,42 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/main.css"/>
   <title>Architecture</title>
 </head>
 
 <body>
 
 <ul id="users" class="users">
-  <li class="users">
+  <li class="user">
     <strong data-name></strong>
   </li>
 </ul>
 
-  <script src="./js/chat/model/users.js"></script>
-  <script src="./js/chat/model/messages.js"></script>
-  <script src="./js/chat/view/users.js"></script>
-  <script src="./js/chat/view/messages.js"></script>
-  <script src="./js/chat/view/messageInput.js"></script>
-  <script src="./js/chat/controller/users.js"></script>
-  <script src="js/chat/controller/messages.js"></script>
-  <script src="./js/chat/index.js"></script>
+<ul id="messages" class="messages">
+  <li class="message">
+    <div data-text></div>
+    <button data-delete type="button">Delete</button>
+  </li>
+</ul>
+
+<form id="new-message-form">
+  <input name="text" type="text"/>
+  <button>Send</button>
+</form>
+
+<script src="js/lib/jquery/jquery.min.js"></script>
+
+<script src="./js/models/messages-array.js"></script>
+
+<script src="./js/chat/model/users.js"></script>
+<script src="./js/chat/model/messages.js"></script>
+<script src="./js/chat/view/users.js"></script>
+<script src="./js/chat/view/messages.js"></script>
+<script src="js/chat/view/new-message-form.js"></script>
+<script src="./js/chat/controller/users.js"></script>
+<script src="js/chat/controller/messages.js"></script>
+<script src="./js/chat/index.js"></script>
 </body>
 
 </html>
