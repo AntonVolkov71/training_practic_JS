@@ -3,15 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="22ad3533-8a82-4fb3-8d80-9ac9053b8dae" name="Default Changelist" comment="Merge branch 'main' of https://github.com/AntonVolkov71/training_practic_JS into main&#10;&#10;# Conflicts:&#10;#&#9;Architecture/public/js/chat/index.js">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Architecture/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Architecture/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Architecture/public/js/chat/controller/messages.js" beforeDir="false" afterPath="$PROJECT_DIR$/Architecture/public/js/chat/controller/messages.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Architecture/public/js/chat/controller/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/Architecture/public/js/chat/controller/users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Architecture/public/js/chat/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Architecture/public/js/chat/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Architecture/public/js/chat/model/messages.js" beforeDir="false" afterPath="$PROJECT_DIR$/Architecture/public/js/chat/model/messages.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Architecture/public/js/chat/model/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/Architecture/public/js/chat/model/users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Architecture/public/js/chat/view/messageInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/Architecture/public/js/chat/view/new-message-form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Architecture/public/js/chat/view/messages.js" beforeDir="false" afterPath="$PROJECT_DIR$/Architecture/public/js/chat/view/messages.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Architecture/public/js/chat/view/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/Architecture/public/js/chat/view/users.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -78,10 +69,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1177" />
-    <option name="width" value="752" />
-    <option name="height" value="1088" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="162" />
+    <option name="width" value="1680" />
+    <option name="height" value="1089" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -170,7 +161,7 @@
       <workItem from="1604404400782" duration="3321000" />
       <workItem from="1604657433173" duration="2331000" />
       <workItem from="1605796248759" duration="859000" />
-      <workItem from="1605851160592" duration="14696000" />
+      <workItem from="1605851160592" duration="14757000" />
     </task>
     <task id="LOCAL-00001" summary="hgjh">
       <created>1605796497105</created>
@@ -183,7 +174,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23002000" />
+    <option name="totallyTimeSpent" value="23063000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -195,14 +186,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="942" y="0" width="601" height="870" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2712766" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.101123594" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32791328" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32791328" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3292683" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -210,7 +200,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32882273" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32882273" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.34552845" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.34182304" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
